@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&family=Passion+One&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&family=Zen+Antique+Soft&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --font1: 'Passion One', cursive;
+    --font2: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+header h1 {
+    padding-top: 40px;
+    font-variant: small-caps;
+    font-family: var(--font1);
+    font-size: 10vw;
+}
+
+header p {
+    padding-bottom: 40px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-family: var(--font2);
+    font-size: 4vw;
+}
+
+#img1 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 10px;
+    box-shadow: inset 6px 6px 7px 0px rgba(0, 0, 0, 0.644);
+}
+
+#img2 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 10px;
+    box-shadow: inset 6px 6px 7px 0px rgba(0, 0, 0, 0.5);
+}
+
+p.ti {
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+    width: max-content;
+    padding: 5px;
+    margin: 40px 15px;
+}
+
+p.nd {
+    padding-bottom: 30px;
+    background-color: white;
+    box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.664);
+}
+
+body {
+    margin: 0px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+footer > p {
+    margin: 0px;
+    padding: 5px;
+}
